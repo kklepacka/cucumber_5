@@ -17,7 +17,7 @@ public class StepDefinitions {
     @Given("I am on https:\\/\\/www.saucedemo.com\\/")
     public void i_am_on_https_www_saucedemo_com() {
         System.setProperty("webdriver.chrome.driver",
-                "src\\test\\drivers\\chromedriver.exe");
+                "src/test/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
     }
